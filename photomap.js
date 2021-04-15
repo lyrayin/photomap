@@ -26,7 +26,7 @@ function createPhotoMap () {
 	minZoom: 0,
 	maxZoom: 18,
 	ext: 'png'
-	});
+  });
   
   // use Papa Parse (papaparse.com) to get the Google Sheets CSV
   Papa.parse(csvUrl, {
